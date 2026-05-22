@@ -8,19 +8,19 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("API_ID",  26090790))
+API_HASH = getenv("API_HASH", "fbe01ca61b6a977f85dc57a80fd2e7cb")
+BOT_TOKEN = getenv("8891757377:AAEOb2fDf8GEUDvrT3LLW3f33trg9s-VozI")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "AnnieXRobot")
+OWNER_ID = int(getenv("OWNER_ID", 8345587611))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "YoYo_Bauni_gurl")
+BOT_USERNAME = getenv("BOT_USERNAME", "Oye_billooooo_musicbot")
 BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxannie")
+ASSUSERNAME = getenv("ASSUSERNAME", "Musicxanny")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003383829888))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -47,8 +47,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/oye_anny_bachchaaa")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+6LG_EZaFKlQ1NmNl")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
@@ -62,11 +62,11 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773")
 
 # ── Session strings (optional) ─────────────────────────────────────────────────
-STRING1 = getenv("STRING_SESSION")
-STRING2 = getenv("STRING_SESSION2")
-STRING3 = getenv("STRING_SESSION3")
-STRING4 = getenv("STRING_SESSION4")
-STRING5 = getenv("STRING_SESSION5")
+STRING1 = getenv("BAGOHSYAlzkgEA6gvuU-lwVaCQeWQNip9_NGu-iVBh5dsLRorn1EA2quCZ6_0ce1JedOnmlp1yCTi19TurRdQLlCAvteGub8GcqmojmV757pIMomTL9RAQTP9ilsP_VFgX9kkjBcGQehzAP7dPwzwoij4iD_1bMosUyxwodODjv5vVKMObhefakaZX28plAdhh3SWMiZTs2iS_JvXVyZWt9rHDhO5P6-KhV9RjbJvoHVGWuqeildAkRYhLuyrsPoImimIpfi3scDST0OVhqwRMgSwLbdRxicW2yG5A6kx8CxLA_yDM7oBw71ZWaLipnoxbrTMISgBL96rT4ncfVDYYm12srpTQAAAAH1wLUlAA ")
+STRING2 = getenv("BAGOHSYAlzkgEA6gvuU-lwVaCQeWQNip9_NGu-iVBh5dsLRorn1EA2quCZ6_0ce1JedOnmlp1yCTi19TurRdQLlCAvteGub8GcqmojmV757pIMomTL9RAQTP9ilsP_VFgX9kkjBcGQehzAP7dPwzwoij4iD_1bMosUyxwodODjv5vVKMObhefakaZX28plAdhh3SWMiZTs2iS_JvXVyZWt9rHDhO5P6-KhV9RjbJvoHVGWuqeildAkRYhLuyrsPoImimIpfi3scDST0OVhqwRMgSwLbdRxicW2yG5A6kx8CxLA_yDM7oBw71ZWaLipnoxbrTMISgBL96rT4ncfVDYYm12srpTQAAAAH1wLUlAA ")
+STRING3 = getenv("BAGOHSYAlzkgEA6gvuU-lwVaCQeWQNip9_NGu-iVBh5dsLRorn1EA2quCZ6_0ce1JedOnmlp1yCTi19TurRdQLlCAvteGub8GcqmojmV757pIMomTL9RAQTP9ilsP_VFgX9kkjBcGQehzAP7dPwzwoij4iD_1bMosUyxwodODjv5vVKMObhefakaZX28plAdhh3SWMiZTs2iS_JvXVyZWt9rHDhO5P6-KhV9RjbJvoHVGWuqeildAkRYhLuyrsPoImimIpfi3scDST0OVhqwRMgSwLbdRxicW2yG5A6kx8CxLA_yDM7oBw71ZWaLipnoxbrTMISgBL96rT4ncfVDYYm12srpTQAAAAH1wLUlAA ")
+STRING4 = getenv("BAGOHSYAlzkgEA6gvuU-lwVaCQeWQNip9_NGu-iVBh5dsLRorn1EA2quCZ6_0ce1JedOnmlp1yCTi19TurRdQLlCAvteGub8GcqmojmV757pIMomTL9RAQTP9ilsP_VFgX9kkjBcGQehzAP7dPwzwoij4iD_1bMosUyxwodODjv5vVKMObhefakaZX28plAdhh3SWMiZTs2iS_JvXVyZWt9rHDhO5P6-KhV9RjbJvoHVGWuqeildAkRYhLuyrsPoImimIpfi3scDST0OVhqwRMgSwLbdRxicW2yG5A6kx8CxLA_yDM7oBw71ZWaLipnoxbrTMISgBL96rT4ncfVDYYm12srpTQAAAAH1wLUlAA ")
+STRING5 = getenv("BAGOHSYAlzkgEA6gvuU-lwVaCQeWQNip9_NGu-iVBh5dsLRorn1EA2quCZ6_0ce1JedOnmlp1yCTi19TurRdQLlCAvteGub8GcqmojmV757pIMomTL9RAQTP9ilsP_VFgX9kkjBcGQehzAP7dPwzwoij4iD_1bMosUyxwodODjv5vVKMObhefakaZX28plAdhh3SWMiZTs2iS_JvXVyZWt9rHDhO5P6-KhV9RjbJvoHVGWuqeildAkRYhLuyrsPoImimIpfi3scDST0OVhqwRMgSwLbdRxicW2yG5A6kx8CxLA_yDM7oBw71ZWaLipnoxbrTMISgBL96rT4ncfVDYYm12srpTQAAAAH1wLUlAA ")
 
 # ── Media assets ───────────────────────────────────────────────────────────────
 START_VIDS = [
